@@ -14,7 +14,6 @@ const CLOUD_ARCH_TARGET: &str = "aarch64-unknown-linux-musl";
 /// Build the Connector in the current working directory
 #[derive(Debug, Parser)]
 pub struct BuildCmd {
-
     #[clap(flatten)]
     package: PackageCmd,
 
